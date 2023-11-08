@@ -1,0 +1,12 @@
+node_modules/
+*.log
+
+env.production
+env.local
+
+.idea
+.vscode
+.nvmrc
+
+temp-todo
+*.swp
