@@ -1,0 +1,26 @@
+{
+  "name": "demo-weather-app",
+  "version": "1.0.0",
+  "description": "Demo Weather App",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "serve": "NODE_DEBUG=debug,info,warn,error nodemon --inspect=localhost:9521 -x 'eslint . && node' app.js"
+  },
+  "dependencies": {
+    "agentkeepalive": "^4.3.0",
+    "axios": "^1.4.0",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0",
+    "nodemon": "^2.0.22",
+    "standard": "^17.0.0"
+  },
+  "engines": {
+    "node": ">= 18 < 19"
+  }
+}
